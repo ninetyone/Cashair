@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Cashair</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="login">Login</string>
+    <string name="email">User Name</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="view">View</string>
+    <string name="mobile">Mobile No.</string>
+    <string name="sign_out">Sign out</string>
+    <string name="pinno">Pin No.: </string>
+    <string name="registerationsuccess">Registered Successfully </string>
+    <string name="projectname">CashAir </string>
+    <string name="existinguser">Existing User </string>
+    <string name="newuser">New User </string>
+    <string name="exit">Exit </string>
+    <string name="pin">Pin No.: </string>
+    <string name="text">Now you can use this PIN No. for all your transcations.</string>
+    <string name="text1">You are first required to login with your USER NAME and PASSWORD.</string>
+    <string name="current_bal">Current Balance: </string>
+    <string name="pay">Click To Pay</string>
+    <string name="checktrans">Check Last 10 Transcations</string>
+    <string name="mobileno">Enter your Mobile  No.</string>
+    <string name="amt">Amount to Pay</string>
+    <string name="Pay">Pay</string>
+    <string name="emailid">Email Id</string>
+    <string name="entertransid">Enter Transaction ID</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="ur_name">Name</string>
+</resources>

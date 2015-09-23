@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip">
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="23dp"
+            android:id="@+id/imageView2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="About Us"
+            android:textColor="#ffffff"
+            android:id="@+id/textView6"
+            android:layout_gravity="right"
+            android:textSize="30sp"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.52"
+            android:layout_marginTop="100dp"
+            android:text="The fundamental idea behind developing CashAir was to reduce the the physical cash transactions and replace them with secure app transactions. \n CashAir uses the currency Cair. (1 Cair = 1 Rupee) \n Cashair allows any user to register himself/herself with CashAir and use his/her account to send CAIRS to another registered account securely. \n\n         Thank You for using CashAir.\n\n This application has been developed by \n      Sakshi Gupta \n        (sakshi1377@iiitd.ac.in)\n      Sukriti Mehta \n       (sukriti1380@iiitd.ac.in) \n students of Indraprastha Institute Of Informational Technology.\n\n  Report any bug/error at the above ID&apos;s. "
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

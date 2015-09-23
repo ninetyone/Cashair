@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="22dip"
+        android:paddingLeft="70dip"
+        android:paddingTop="26dip"
+        android:text="@string/registerationsuccess"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pinno"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/generatenumber"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+          android:padding="10dip"
+        android:textColor="@android:color/white"
+        android:textSize="17dp" />
+   
+
+      <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+          android:paddingTop="40dip"
+        android:typeface="serif" />
+      
+       <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text1"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+    
+        android:typeface="serif" />
+
+       <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dip"
+            android:text="@string/login" />
+
+</LinearLayout>

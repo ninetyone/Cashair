@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip">
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="23dp"
+            android:id="@+id/imageView2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Help"
+            android:textColor="#ffffff"
+            android:id="@+id/textView6"
+            android:layout_gravity="right"
+            android:textSize="30sp"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="100dp"
+            android:layout_height="wrap_content"
+            android:text="Cashair allows any user to register himself/herself with CashAir and use his/her account to send CAIRS to another registered account securely. \n\n
+
+->> On Registraion Page: \n
+Enter your correct details to register with Us. \n Post registration a unique 6 digit Pin No. will be generated for your account that will be used for transactions. \n\n
+
+->> On Login Page: \n
+Enter your correct Username and Password to view your Profile page. \n\n
+
+->> On Profile Page: \n
+This is your profile page. \n
+To make a transaction click on Pay button. \n
+To view your transactions click on View Transactions. \n
+To edit your profile click on Edit Profile. \n
+To signout click on Sign Out. \n\n
+
+->> On View Transactions Page: \n
+This page displays the list of all the transactions you have made till date. \n\n
+
+->> On Edit Profile Page: \n
+You can change your password, update your Phone no. and Email ID. \n\n
+
+->> On Pay Page: \n
+Enter correct Pin No. of the receiver and valid amount to pay, to generate a unique 8 digit TransactionID. \n
+This unique 8 digit TransactionID will be received on the Receiver's Phone no. via SMS. \n\n
+
+->> On TransactionID Page: \n
+Enter the correct, unique 8 digit TransactionID received on the Receiver's phone via SMS to complete the transaction." />
+
+    </RelativeLayout>
+
+</ScrollView>
